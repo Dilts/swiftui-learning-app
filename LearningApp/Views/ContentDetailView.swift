@@ -37,18 +37,15 @@ struct ContentDetailView: View {
                     
                     ZStack {
                         
-                        Rectangle()
+                        RectangleCard(color: Color.green)
                             .frame(height: 48)
-                            .foregroundColor(Color.green)
-                            .cornerRadius(10)
-                            .shadow(radius: 5)
-                            
                         
                         Text("Next Lesson: \(model.currentModule!.content.lessons[model.currentLessonIndex + 1].title)")
                             .foregroundColor(Color.white)
                             .bold()
                     }
                 })
+                
             }
             else {
                 // Show the complete button instead
@@ -60,12 +57,8 @@ struct ContentDetailView: View {
                     
                     ZStack {
                         
-                        Rectangle()
+                        RectangleCard(color: .pink)
                             .frame(height: 48)
-                            .foregroundColor(Color.green)
-                            .cornerRadius(10)
-                            .shadow(radius: 5)
-                            
                         
                         Text("Complete")
                             .foregroundColor(Color.white)
