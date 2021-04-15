@@ -25,7 +25,7 @@ struct ContentDetailView: View {
             }
             
             // TODO: Description
-            
+            CodeTextView()
             // Show next lesson button only if there is a next lesson
             if model.hasNextLesson() {
                 
@@ -50,9 +50,33 @@ struct ContentDetailView: View {
                     }
                 })
             }
-            
+            else {
+                // Show the complete button instead
+                Button(action: {
+                    // Take the user back to the home view
+                    model.currentContentSelected = nil
+                    
+                }, label: {
+                    
+                    ZStack {
+                        
+                        Rectangle()
+                            .frame(height: 48)
+                            .foregroundColor(Color.green)
+                            .cornerRadius(10)
+                            .shadow(radius: 5)
+                            
+                        
+                        Text("Complete")
+                            .foregroundColor(Color.white)
+                            .bold()
+                    }
+                })
+                
+            }
         }
             .padding()
+            .navigationBarTitle(lesson?.title ?? "")
     
     }
     

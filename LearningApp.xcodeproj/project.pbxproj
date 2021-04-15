@@ -13,6 +13,7 @@
 		869DB7E12627890D001D7045 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869DB7E02627890D001D7045 /* ContentDetailView.swift */; };
 		869DB7E526278F12001D7045 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869DB7E426278F12001D7045 /* AVKit.framework */; };
 		869DB7E726279655001D7045 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869DB7E626279655001D7045 /* Constants.swift */; };
+		869DB80A2627B1EA001D7045 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869DB8092627B1EA001D7045 /* CodeTextView.swift */; };
 		86C4229526252C40005F9568 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4229426252C40005F9568 /* LearningApp.swift */; };
 		86C4229726252C40005F9568 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4229626252C40005F9568 /* HomeView.swift */; };
 		86C4229926252C43005F9568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C4229826252C43005F9568 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		869DB7E02627890D001D7045 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		869DB7E426278F12001D7045 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		869DB7E626279655001D7045 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		869DB8092627B1EA001D7045 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		86C4229126252C40005F9568 /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C4229426252C40005F9568 /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		86C4229626252C40005F9568 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				869DB7DA26276C05001D7045 /* ContentView.swift */,
 				869DB7DD262774E8001D7045 /* ContentViewRow.swift */,
 				869DB7E02627890D001D7045 /* ContentDetailView.swift */,
+				869DB8092627B1EA001D7045 /* CodeTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				869DB7E12627890D001D7045 /* ContentDetailView.swift in Sources */,
 				86C4229526252C40005F9568 /* LearningApp.swift in Sources */,
 				869DB7DE262774E8001D7045 /* ContentViewRow.swift in Sources */,
+				869DB80A2627B1EA001D7045 /* CodeTextView.swift in Sources */,
 				86C422AC26252D17005F9568 /* ContentModel.swift in Sources */,
 				86C422B5262745A6005F9568 /* Models.swift in Sources */,
 				869DB7E726279655001D7045 /* Constants.swift in Sources */,
